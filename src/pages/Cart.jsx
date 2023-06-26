@@ -45,10 +45,10 @@ const Cart = () => {
           </div>
 
         ) : (
-          <div>
-            <h1>Empty Cart</h1>
+          <div className=" flex flex-col justify-center items-center h-screen">
+            <h1  className="text-gray-700 font-semibold text-3xl truncate mt-1">Empty Cart</h1>
             <Link to={"/"}>
-              <button>
+              <button className="bg-green-700 text-white px-3 py-2 rounded-md font-bold mt-4">
                 Shop Now
               </button>
             </Link>
